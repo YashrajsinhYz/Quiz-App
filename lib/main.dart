@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('The Udemy Flutter Course'),
+          title: Text('Quiz App'),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
