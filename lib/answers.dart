@@ -3,14 +3,14 @@
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
-  final VoidCallback selectHandler;
+  final Function selectHandler;
   final String answerText;
 
   const Answer(this.selectHandler, this.answerText);
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
       width: 350,
       child: RaisedButton(
         color: Colors.red,
